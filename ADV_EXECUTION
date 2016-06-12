@@ -1,13 +1,13 @@
 commitMessage="Setting up example project for cocoapods" && \
-VERSION=0.1.7 && \
+VERSION=0.1.8 && \
 clear && printf '\e[3J' && \
 cd "/Users/christopher/git/Tool-Kit/MAC Guide - Utilities/SwipesView/iOSContent/UIPages/" && \
 pod lib lint UIPages.podspec --no-clean --verbose --allow-warnings && \
 git add . && \
 git commit --author="Operators <operators.dba@gmail.com>"  -m "v$VERSION: $commitMessage" && \
 git tag $VERSION && \
-git push --author="Operators <operators.dba@gmail.com>" origin advanced && \
-git push --author="Operators <operators.dba@gmail.com>" origin advanced $VERSION && \
+git push origin advanced && \
+git push origin advanced $VERSION && \
 pod trunk push UIPages.podspec --allow-warnings
 
 open "/Applications/Github Desktop.app"
