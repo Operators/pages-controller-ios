@@ -1,6 +1,0 @@
-framework module UIPages {
-  umbrella header "UIPages.h"
-
-  export *
-  module * { export * }
-}

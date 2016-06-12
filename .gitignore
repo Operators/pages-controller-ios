@@ -56,6 +56,7 @@ fastlane/test_output
 Carthage/Checkouts
 Carthage/Build
 PagesObjCExamples/Carthage
+PagesSwiftExamples/Carthage
 
 # fastlane
 #

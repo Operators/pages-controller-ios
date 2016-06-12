@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9D0A315F1CBC853C00E41A01 /* UIPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0A315E1CBC853C00E41A01 /* UIPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0A31681CBC868600E41A01 /* UIPagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0A31661CBC868600E41A01 /* UIPagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D0A31691CBC868600E41A01 /* UIPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A31671CBC868600E41A01 /* UIPagesController.m */; settings = {ASSET_TAGS = (); }; };
+		9D0A31691CBC868600E41A01 /* UIPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A31671CBC868600E41A01 /* UIPagesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +283,7 @@
 				9D0A31651CBC853C00E41A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
