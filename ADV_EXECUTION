@@ -1,0 +1,15 @@
+commitMessage="Setting up example project for cocoapods" && \
+VERSION=0.1.1 && \
+clear && printf '\e[3J' && \
+cd "/Users/christopher/git/Tool-Kit/MAC Guide - Utilities/SwipesView/iOSContent/UIPages/" && \
+pod lib lint UIPages.podspec --no-clean --verbose --allow-warnings && \
+git add . && \
+git commit -m "v$VERSION: $commitMessage" && \
+git push origin advanced && \
+git tag $VERSION && \
+git push origin advanced $VERSION && \
+pod trunk push UIPages.podspec --allow-warnings
+
+cd "/Users/christopher/git/Tool-Kit/MAC Guide - Utilities/SwipesView/iOSContent/UIPages/PagesObjCExamples" && pod install
+
+cd "/Users/christopher/git/Tool-Kit/MAC Guide - Utilities/SwipesView/iOSContent/UIPages/PagesObjCExamples" && carthage update
