@@ -1,5 +1,5 @@
 commitMessage="Setting up example project for cocoapods" && \
-VERSION=0.1.9 && \
+VERSION=0.1.10 && \
 clear && printf '\e[3J' && \
 cd "/Users/christopher/git/Tool-Kit/MAC Guide - Utilities/SwipesView/iOSContent/UIPages/" && \
 pod lib lint UIPages.podspec --no-clean --verbose --allow-warnings && \

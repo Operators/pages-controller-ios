@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name             = "UIPages"
-spec.version          = "0.1.9"
+spec.version          = "0.1.10"
 spec.summary          = "Enhanced wrapper framework around UIPageViewController"
 
 spec.description      = "Wrapper framework around UIPageViewController that requires a storyboard and string references to the Controllers of the storyboard"
