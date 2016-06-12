@@ -1,0 +1,6 @@
+framework module UISwipes {
+  umbrella header "UISwipes.h"
+
+  export *
+  module * { export * }
+}
