@@ -6,7 +6,7 @@ pod lib lint UIPages.podspec --no-clean --verbose --allow-warnings && \
 git add . && \
 git commit -m "v$VERSION: $commitMessage" && \
 git tag $VERSION && \
-open "~/Applications/Github Desktop.app" && \
+open "/Users/christopher/Applications/Github Desktop.app" && \
 pod trunk push UIPages.podspec --allow-warnings
 
 # git push origin advanced && \
